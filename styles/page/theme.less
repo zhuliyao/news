@@ -1,0 +1,211 @@
+.theme_home{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    .theme_top{
+        height: 138px;
+        width: 100%;
+        background: #5a9722;
+        overflow: hidden;
+        .theme_nav{
+            width: 348px;
+            margin: 0 auto;
+            height: 77px;
+            background: greenyellow;
+            margin-top: 30px;
+            border: 1px solid #cde0bc;
+            border-radius: 38px;
+            // :nth-child(1){
+            //     border-radius: 38px;
+            //     background: white;
+            // }
+            // :nth-child(2){
+            //     border-radius: 38px;
+            //     background: white;
+            // }
+            .nav{
+                width: 174px;
+                height: 77px;
+                line-height: 77px;
+                float: left;
+                text-align: center;
+                font-size: 40px;
+                color: white;
+            }
+            .theme_active{
+                border-radius: 38px;
+                background: white;
+                color: #5a9722
+            }
+        }
+    }
+    .conntent{
+        flex: 1;
+        width: 100%;
+        overflow: auto;
+        .tj{
+            width: 100%;
+            .list{
+                box-sizing: border-box;
+                width: 100%;
+                overflow: hidden;
+                background: #f3f3f3;
+                padding-bottom: 152px;
+                li{
+                    width: 100%;
+                    height: 828px;
+                    margin-top: 32px;
+                    background: white;
+                    overflow: hidden;
+                    .tj_top{
+                        box-sizing: border-box;
+                        padding: 0 42px;
+                        height: 114px;
+                        width: 100%;
+                        margin-top: 56px;
+                        overflow: hidden;
+                        #img1{
+                            display: inline-block;
+                            float: left;
+                            width: 100px;
+                            height: 100px;
+                            border-radius: 50%;
+                        }
+                        .tj_author{
+                            float: left;
+                            height: 114px;
+                            .to{
+                                margin-left: 28px;
+                                height: 67px;
+                                line-height: 67px;
+                                // float: left;
+                                p{
+                                    // width: 185px;
+                                    max-width: 185px;
+                                    color: #666666;
+                                    line-height: 67px;
+                                    font-size: 44px;
+                                    display: inline-block;
+                                    float: left;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    white-space: nowrap;
+                                }
+                                i{
+                                    display: inline-block;
+                                    height: 37px;
+                                    width: 1px;
+                                    padding: 0 16px;
+                                    float: left;
+                                    font-weight: normal;
+                                    font-style: normal;
+                                }
+                                img{
+                                    margin-left: 12px;
+                                    display: inline-block;
+                                    width: 40px;
+                                    height: 40px;
+                                    float: left;
+                                    margin-top: 18px;
+                                }
+                                span{
+                                    line-height: 67px;
+                                    font-size: 44px;
+                                    display: inline-block;
+                                    float: left;
+                                    color: #bcbcbc;
+                                    margin-left: 15px;
+                                }
+                            }
+                            .bo{
+                                margin-left: 28px;
+                                color: #bbbbbb;
+                                font-size: 34px;
+                            }
+                        }
+                        .gz{
+                            width: 215px;
+                            height: 84px;
+                            border: 1px solid #77a464;
+                            border-radius: 40px;
+                            float: right;
+                            margin-top: 11px;
+                            background: url(../../assets/img/jiahao.png) no-repeat 50px center;
+                            background-size: 31px 32px;
+                            p{
+                                line-height: 84px;
+                                color: #77a464;
+                                margin-left: 96px;
+                                font-size: 32px;
+                            }
+                        }
+                    }
+                    .ti{
+                        width: 100%;
+                        height: 128px;
+                        box-sizing: border-box;
+                        padding: 0 42px;
+                        line-height: 128px;
+                        color: #333333;
+                        font-size: 42px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                    .center{
+                        width: 100%;
+                        box-sizing: border-box;
+                        padding: 0 42px;
+                        height: 325px;
+                        display: flex;
+                        justify-content: space-between;
+                        // border-bottom: 1px solid #e8e8e8;
+                        img{
+                            width: 325px;
+                            height: 325px;
+                        }
+                        img[src=""],img:not([src]){opacity:0;}
+                    }
+                    .liuyan{
+                        box-sizing: border-box;
+                        padding: 0 42px;
+                        height: 143px;
+                        border-top: 1px solid #e8e8e8;
+                        margin-top: 59px;
+                        background: url(../../assets/img/bg.png) no-repeat center center;
+                        background-size: 3px 115px;
+                        .liu1{
+                            text-align: center;
+                            background: url(../../assets/img/bg1.png) no-repeat 173px center;
+                            background-size: 50px 46px;
+                        }
+                        .liu2{
+                            background: url(../../assets/img/bg2.png) no-repeat 216px center;
+                            background-size: 48px 46px;
+                            p{
+                                line-height: 143px;
+                                color: #9c9c9c;
+                                font-size: 32px;
+                                margin-left: 284px;
+
+                            }
+                        }
+                        div{
+                            width: 50%;
+                            height: 100%;
+                            float: left;
+                            line-height: 143px;
+                            color: #9c9c9c;
+                            font-size: 32px;
+
+                        }
+                    }
+                }
+            }
+        }
+        .yc{
+            width: 100%;
+        }
+    }
+}
